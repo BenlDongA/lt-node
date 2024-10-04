@@ -6,12 +6,11 @@
   "license": "MIT",
   "private": true,
   "type": "module",
-"scripts": {
-  "start": "node buoi3/index.js"
-},
-
+  "scripts": {
+    "start": "nodemon buoi4/index.js"
+  },
   "dependencies": {
+    "express": "^4.21.0",
     "nodemon": "^3.1.4"
   }
 }
-
